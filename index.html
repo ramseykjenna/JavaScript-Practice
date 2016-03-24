@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Pizza Calculator</h1>
+    <p>Create a calculator to determine how many pizzas you will need to get to feed all of the attendees at your birthday party. You will need to input how many people are going to the party and how many pieces each person will eat. Each pizza has 8 slices.</p>
+    
+        <label for="attendees">Attendees</label>
+        <input type="number" name="attendees" id="attendees">
+        <br>
+        <label for="piecesPerAttendee">Pieces per attendee</label>
+        <input type="number" name="piecesPerAttendee" id="piecesPerAttendee">
+        <br>
+        <label for="piecesPerPizza">Pieces per pizza</label>
+        <input type="number" name="piecesPerPizza" id="piecesPerPizza">
+        <br>
+        <br>
+    <button onclick="findNumPizzas()">Calculate</button>
+    <h1 id="response"></h1>
+<script src="main.js"></script>
+</body>
+
+</html>
